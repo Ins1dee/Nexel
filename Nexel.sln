@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0CC045B6-02E9-4D79-9010-236C02A4115D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexel.Domain", "src\Nexel.Domain\Nexel.Domain.csproj", "{8B47BB08-B7E3-4C58-A5E4-B69CC7DD5939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexel.Application", "src\Nexel.Application\Nexel.Application.csproj", "{F5E08399-AED9-4D7D-B39F-948E3C5D666B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexel.Persistence", "src\Nexel.Persistence\Nexel.Persistence.csproj", "{8EB7B035-2E33-4CAE-A935-C8FE6FD65621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexel.WebAPI", "src\Nexel.WebAPI\Nexel.WebAPI.csproj", "{4F79576E-C52C-49EE-874C-03BB6CF0B633}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7EC4A4E8-8FCA-4241-8384-11DBA118C902}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{542D7B43-E30F-44CA-98EC-573B140F5315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "tests\Tests\Tests.csproj", "{047757A8-CEB3-4A0F-A2F1-D61115012345}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B47BB08-B7E3-4C58-A5E4-B69CC7DD5939} = {0CC045B6-02E9-4D79-9010-236C02A4115D}
+		{F5E08399-AED9-4D7D-B39F-948E3C5D666B} = {0CC045B6-02E9-4D79-9010-236C02A4115D}
+		{8EB7B035-2E33-4CAE-A935-C8FE6FD65621} = {0CC045B6-02E9-4D79-9010-236C02A4115D}
+		{4F79576E-C52C-49EE-874C-03BB6CF0B633} = {0CC045B6-02E9-4D79-9010-236C02A4115D}
+		{047757A8-CEB3-4A0F-A2F1-D61115012345} = {542D7B43-E30F-44CA-98EC-573B140F5315}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B47BB08-B7E3-4C58-A5E4-B69CC7DD5939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B47BB08-B7E3-4C58-A5E4-B69CC7DD5939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B47BB08-B7E3-4C58-A5E4-B69CC7DD5939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B47BB08-B7E3-4C58-A5E4-B69CC7DD5939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E08399-AED9-4D7D-B39F-948E3C5D666B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E08399-AED9-4D7D-B39F-948E3C5D666B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E08399-AED9-4D7D-B39F-948E3C5D666B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E08399-AED9-4D7D-B39F-948E3C5D666B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB7B035-2E33-4CAE-A935-C8FE6FD65621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB7B035-2E33-4CAE-A935-C8FE6FD65621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB7B035-2E33-4CAE-A935-C8FE6FD65621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB7B035-2E33-4CAE-A935-C8FE6FD65621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F79576E-C52C-49EE-874C-03BB6CF0B633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F79576E-C52C-49EE-874C-03BB6CF0B633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F79576E-C52C-49EE-874C-03BB6CF0B633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F79576E-C52C-49EE-874C-03BB6CF0B633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047757A8-CEB3-4A0F-A2F1-D61115012345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047757A8-CEB3-4A0F-A2F1-D61115012345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047757A8-CEB3-4A0F-A2F1-D61115012345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047757A8-CEB3-4A0F-A2F1-D61115012345}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
